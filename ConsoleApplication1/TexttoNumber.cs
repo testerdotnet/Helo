@@ -13,7 +13,7 @@ namespace ConsoleApplication1
             //return text
             //    .Select(c => c - 'A' + 1)
             //    .Aggregate((sum, next) => sum * 26 + next);
-            return (text - 'A') + 1;
+            return (text - 'a') + 1;
         }
     }
 }
