@@ -10,9 +10,6 @@ namespace ConsoleApplication1
     {
         public static int TextToNumber(this char text)
         {
-            //return text
-            //    .Select(c => c - 'A' + 1)
-            //    .Aggregate((sum, next) => sum * 26 + next);
             return (text - 'a') + 1;
         }
     }
